@@ -17,7 +17,7 @@ export default function Volunteering() {
           <div className="bg-[#242525] p-8 rounded-lg border border-gray-200/30">
             <h3 className="text-xl font-bold uppercase mb-5 text-gray-100">Requisitos</h3>
             <ul className="space-y-3">
-              {['Idade entre 18 e 35 anos', 'Boa condição física e psicológica', 'Disponibilidade para formação inicial', 'Espírito de equipa'].map((req, idx) => (
+              {['Idade entre 18 e 55 anos', 'Boa condição física e psicológica', 'Disponibilidade para formação inicial', 'Espírito de equipa'].map((req, idx) => (
                 <li key={idx} className="flex items-center gap-3 text-sm text-gray-300">
                   <CheckCircle className="text-brand-red flex-shrink-0" size={18} /> {req}
                 </li>
@@ -36,9 +36,10 @@ export default function Volunteering() {
           </div>
         </div>
         <div className="text-center">
-          <button className="bg-brand-red hover:bg-red-800 text-white px-6 py-3 text-sm font-bold uppercase tracking-wider rounded transition">
+          <a href="#contactos"
+          className="bg-brand-red hover:bg-red-800 text-white px-6 py-3 text-sm font-bold uppercase tracking-wider rounded transition">
             Candidatar-me →
-          </button>
+          </a>
         </div>
       </div>
     </section>

@@ -15,7 +15,7 @@ export default function Navbar() {
                 className="h-12 w-auto"
             />
         </div>
-          <span className="font-bold text-lg tracking-wide uppercase">Bombeiros</span>
+          <span className="font-bold text-lg tracking-wide uppercase">Bombeiros Voluntários do Porto</span>
         </div>
         
         <div className="hidden lg:flex space-x-6 text-xs font-semibold tracking-wide">
@@ -30,7 +30,7 @@ export default function Navbar() {
 
         <div className="hidden lg:flex items-center">
           <button className="bg-brand-red hover:bg-red-800 flex items-center gap-2 px-5 py-1.5 rounded text-sm font-bold transition">
-            <Phone size={16} /> 112
+            <Phone size={16} /> 
           </button>
         </div>
 
@@ -52,7 +52,7 @@ export default function Navbar() {
           <a href="#noticias" onClick={() => setIsOpen(false)} className="text-sm font-semibold hover:text-brand-red transition">NOTÍCIAS</a>
           <a href="#contactos" onClick={() => setIsOpen(false)} className="text-sm font-semibold hover:text-brand-red transition">CONTACTOS</a>
           <button className="bg-brand-red w-full flex justify-center items-center gap-2 py-2 rounded text-sm font-bold mt-2">
-            <Phone size={16} /> LIGAR 112
+            <Phone size={16} /> Entra em contacto
           </button>
         </div>
       )}

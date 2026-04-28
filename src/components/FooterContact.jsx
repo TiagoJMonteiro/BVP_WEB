@@ -45,7 +45,7 @@ export default function FooterContact() {
             <div className="flex items-start gap-3">
               <Clock className="text-brand-gold mt-0.5 flex-shrink-0" size={18} />
               <div>
-                <h4 className="font-bold uppercase text-sm mb-0.5 text-white">Secretariado</h4>
+                <h4 className="font-bold uppercase text-sm mb-0.5 text-white">Secretaria</h4>
                 <p className="text-gray-400 text-xs">Segunda a Sexta: 09h00 – 17h00</p>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function FooterContact() {
                 className="h-24 w-auto"
             />
                 </div>
-                <span className="font-bold text-xl text-white tracking-wide uppercase">Bombeiros Voluntários</span>
+                <span className="font-bold text-xl text-white tracking-wide uppercase">Bombeiros Voluntários do Porto</span>
               </div>
               <p className="text-sm text-gray-400 leading-relaxed pr-6">
                 Associação Humanitária de Bombeiros Voluntários ao serviço da comunidade desde 1950.
@@ -164,7 +164,7 @@ export default function FooterContact() {
           {/* Copyright Line */}
           <div className="border-t border-gray-800 pt-6 pb-2">
             <p className="text-center text-sm text-gray-500">
-              © 2026 Bombeiros Voluntários. Todos os direitos reservados.
+              © 2026 Bombeiros Voluntários do Porto. Todos os direitos reservados.
             </p>
           </div>
 
